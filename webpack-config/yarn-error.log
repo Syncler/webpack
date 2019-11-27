@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add @babel/corel babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+PATH: 
+  /usr/lib/jvm/java-8-oracle//bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/syncler/Documentos/Android/Sdk/tools:/home/syncler/Documentos/Android/Sdk/platform_tools:/snap/android-studio/77/android-studio/grdle/gradle-5.1.1/bin:/home/syncler/Documentos/Android/Sdk/tools:/home/syncler/Documentos/Android/Sdk/platform_tools:/snap/android-studio/77/android-studio/grdle/gradle-5.1.1/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2fcorel: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66926:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140564:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141536:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141458:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "webpack-config",
+    "version": "1.0.0",
+    "description": "Estudos de React com webpack",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --mode production"
+    },
+    "repository": "https://github.com/Syncler",
+    "author": "Syncler",
+    "license": "MIT",
+    "devDependencies": {
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
